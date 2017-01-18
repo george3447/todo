@@ -1,7 +1,7 @@
 {
     "name": "todo",
     "version": "0.0.0",
-    "description": "A todo application for exporing statefull and stateless components in Angular 1.5 ",
+    "description": "A todo application for exploring stateful and stateless components using AngularJs",
     "main": "index.js",
     "scripts": {
         "start": "ws",
@@ -9,7 +9,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/george3447/todo.git"
+        "url": "https://github.com/george3447/todo"
     },
     "local-web-server": {
         "port": 8100

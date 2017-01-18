@@ -5,7 +5,7 @@
 ## Features
 
 * Component architecture 
-* Stefull and stateless components
+* Stateful and stateless components
 
 ## Installation
 
