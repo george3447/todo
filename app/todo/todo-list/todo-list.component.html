@@ -1,0 +1,7 @@
+<ul>
+    <li ng-repeat="todo in $ctrl.todos">
+        <label ng-bind="'('+($index+1)+')'"></label>
+        <todo-list-item todo="todo" on-remove-todo-item="$ctrl.onRemoveTodoItem({todoListObj:todoListItemObj})" on-edit-todo-item="$ctrl.onEditTodoItem({todoListObj:todoListItemObj})"
+            on-complete-todo-item="$ctrl.onCompleteTodoItem({todoListObj:todoListItemObj})"></todo-list-item>
+    </li>
+</ul>

@@ -1,0 +1,4 @@
+<label ng-class="{'completed': $ctrl.todo.isCompleted}" ng-bind="$ctrl.todo.desc"></label>
+<button ng-click="$ctrl.onCompleteTodoItem({ todoListItemObj: $ctrl.todo  })" ng-bind="($ctrl.todo.isCompleted?'Undo':'Complete')"></button>
+<button ng-click="$ctrl.editTodoItem()">Edit</button>
+<button ng-click="$ctrl.onRemoveTodoItem({ todoListItemObj: $ctrl.todo  })">Remove</button>

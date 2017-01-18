@@ -1,0 +1,20 @@
+todo-list li>label {
+    width: 20px;
+    display: inline-block;
+}
+
+todo-list-item label {
+    width: 200px;
+    display: inline-block;
+    padding: 10px;
+}
+
+todo-list-item button {
+    margin: 5px;
+    width: 80px;
+}
+
+todo-list-item label.completed {
+    text-decoration: line-through;
+    color: green;
+}
