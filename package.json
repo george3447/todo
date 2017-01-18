@@ -1,29 +1,36 @@
 {
-  "name": "todo",
-  "version": "0.0.0",
-  "description": "A todo application for exporing statefull and stateless components in Angular 1.5 ",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/george3447/todo.git"
-  },
-  "keywords": [
-    "Angularjs",
-    "1.5",
-    "components",
-    "todo",
-    "sample"
-  ],
-  "author": "Georgekutty Antony",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/george3447/todo/issues"
-  },
-  "homepage": "https://github.com/george3447/todo#readme",
-  "dependencies": {
-    "angular": "^1.6.1"
-  }
+    "name": "todo",
+    "version": "0.0.0",
+    "description": "A todo application for exporing statefull and stateless components in Angular 1.5 ",
+    "main": "index.js",
+    "scripts": {
+        "start": "ws",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/george3447/todo.git"
+    },
+    "local-web-server": {
+        "port": 8100
+    },
+    "keywords": [
+        "Angularjs",
+        "1.5",
+        "components",
+        "todo",
+        "sample"
+    ],
+    "author": "Georgekutty Antony",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/george3447/todo/issues"
+    },
+    "homepage": "https://github.com/george3447/todo#readme",
+    "dependencies": {
+        "angular": "^1.6.1"
+    },
+    "devDependencies": {
+        "local-web-server": "^1.2.6"
+    }
 }
