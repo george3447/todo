@@ -1,11 +1,10 @@
 
 
-## TODO sample app using AngularJs(v1.6.1) components.
----
+# TODO sample app using AngularJs(v1.6.1) components.
 
 ## Features
 
-* Angular 1.5 component architecture 
+* Component architecture 
 * Stefull and stateless components
 
 ## Installation
